@@ -1,0 +1,35 @@
+.scroll3{
+    width: 100px;
+    height: 100px;
+    margin:-5px;
+    background-color:#00ffff;
+    position: relative;
+    animation: square 2s;
+    animation-iteration-count: infinite;
+}
+@keyframes square{
+    0%{left: 0%;}
+    3%{left: 20%;}
+    5%{left: 40%;}
+    10%{left: 60%;}
+    15%{left: 80%;}
+    20%{left: 93%;}
+    22%{top:0px;}
+    25%{top:100px;}
+    30%{top:200px;}
+    35%{top:300px;}
+    40%{top:400px;}
+    45%{top:500px;}
+    50%{left:93%;}
+    55%{left:80%;}
+    60%{left:60%;}
+    65%{left:40%;}
+    70%{left: 20%;}
+    72%{left:0%;}
+    75%{top:500px;}
+    80%{top:400px;}
+    85%{top:300px;}
+    90%{top:200px;}
+    95%{top:100px;}
+    100%{top:0px;}
+}
